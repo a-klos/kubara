@@ -260,7 +260,7 @@ jobs:
       KUBARA_ARGOCD_HELM_REPO_USERNAME: "git"
       KUBARA_ARGOCD_HELM_REPO_PASSWORD: "000000"
       KUBARA_ARGOCD_HELM_REPO_URL: "https://kubara.io/kubara.git"
-      KUBARA_ARGOCD_GIT_HTTPS_URL: "https://kubara.io/kubara.git"
+      KUBARA_ARGOCD_GIT_URL: "https://kubara.io/kubara.git"
       KUBARA_ARGOCD_GIT_PAT_OR_PASSWORD: "000000"
       KUBARA_ARGOCD_GIT_USERNAME: "git"
 
