@@ -113,7 +113,7 @@ echo "Downloading checksum file..."
 curl_wrap -L -o "$CHECKSUM_FILE" "$CHECKSUM_URL"
 
 echo "Verifying checksum..."
-grep "$FILENAME" "$CHECKSUM_FILE" > checksum_check.txt
+grep "${FILENAME}$" "$CHECKSUM_FILE" > checksum_check.txt
 
 if command -v sha256sum >/dev/null 2>&1; then
     sha256sum -c checksum_check.txt
